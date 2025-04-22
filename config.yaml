@@ -1,0 +1,35 @@
+SETTINGS:
+    THREADS: 1
+    ATTEMPTS: 3
+    SHUFFLE_ACCOUNTS: True
+    ACCOUNTS_RANGE: [0, 0]  
+    EXACT_ACCOUNTS_TO_USE: []
+    RANDOM_INITIALIZATION_PAUSE: [7, 12] # thời gian ngẫu nhiên giữa các tài khoản
+    RANDOM_PAUSE_BETWEEN_ACCOUNTS: [7, 12] # thời gian ngẫu nhiên giữa lần đăng nhập tài khoản
+    PAUSE_BETWEEN_ATTEMPTS: [3, 5] # thời gian ngẫu nhiên giữa các lần thử đăng nhập tài khoản
+
+AI_CHATTER:
+    GUILDS:
+        - GUILD_ID: "1335195624928313425"
+          CHANNEL_IDS: ["1335201882716508181", "1335474283610243113"]
+          MESSAGES_PER_ACCOUNT: [100, 350]
+        - GUILD_ID: "1250054341604282388"
+          CHANNEL_IDS: ["1250054341604282395", "1259917602201927770"]
+          MESSAGES_PER_ACCOUNT: [100, 350]
+        - GUILD_ID: "1344883126991585350"
+          CHANNEL_IDS: ["1344883128799461462"]
+          MESSAGES_PER_ACCOUNT: [50, 200]
+    PAUSE_BETWEEN_MESSAGES: [30, 60] # thời gian ngẫu nhiên giữa các tin nhắn
+    REPLY_PERCENTAGE: 50
+    LEAVE_GUILD: False
+
+GROK:
+    MODEL: "grok-3"
+    API_KEYS: ["xai-xxxxx"]
+    PROXY_FOR_GROK: ""
+
+CAPSOLVER:
+    API_KEY: "CAP-xxxx"
+
+PROXY:
+    TIMEOUT: 5
