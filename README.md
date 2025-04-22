@@ -40,19 +40,19 @@ pip install -r requirements.txt
 ```
 - 3. Prepare configuration files:
 
-     - Create accounts.txt with Discord tokens (one per line).
+- Create accounts.txt with Discord tokens (one per line).
 ```plain
 token1
 token2
 ```
-     - (Optional) Create proxies.txt with proxy addresses (one per line, format: host:port).
+- (Optional) Create proxies.txt with proxy addresses (one per line, format: host:port).
 ```plain
 192.168.1.1:8080
 192.168.1.2:8080
 ```
 
 
-    - Update `` config.yaml `` with your settings (guilds, channels, API keys, etc.).
+- Update `` config.yaml `` with your settings (guilds, channels, API keys, etc.).
 ```bash
 SETTINGS:
   THREADS: 5
